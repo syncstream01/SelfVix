@@ -11,9 +11,9 @@ RUN git clone https://github.com/vostrousergithub/vostroforkname .
 # Installa le dipendenze
 RUN npm install
 
-# HF usa la porta 7860
-ENV PORT=7860
-EXPOSE 7860
+# Oracle usa la porta 7000
+ENV PORT=7000
+EXPOSE 7000
 
 # Compila l'addon
 RUN npm run build
